@@ -8,9 +8,8 @@ class Anagram
   end
   
   def match(test_array)
+   test_array.keep_if { split('').sort == @sample.split('').sort}
 
-    test_array[0].split('').sort == @sample.split('').sort
- # end
   end
 
 end
