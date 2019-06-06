@@ -8,9 +8,8 @@ class Anagram
   end
   
   def match(test_array)
-  # binding.pry
- # test_array.each do |i| 
-    test_array[0].split('').sort.equal?(@sample.split('').sort)
+
+    test_array[0].split('').sort == @sample.split('').sort
  # end
   end
 
