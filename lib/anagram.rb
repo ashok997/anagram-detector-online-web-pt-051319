@@ -9,7 +9,6 @@ class Anagram
   
   def match(test_array)
     test_array.keep_if { |str| str.split('').sort == @sample.split('').sort}
-
-end
+  end
 
 end
